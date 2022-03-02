@@ -3,19 +3,19 @@
 
 ## Language Features
 
-- Statements
-    - Simple statements  
+- ### Statements
+    - #### Simple statements  
         ```
         print "Hello, World!";
         ```
-    - Block statements
+    - #### Block statements
     ```
     {
        print "Some statement";
        print "Some Second statement"; 
     }
     ```
-- Variables
+- ### Variables
     ```
     var variable = "Some String";
     var pi = 3.14;
@@ -23,7 +23,7 @@
     
     print pi; // 3.14
     ```
-- Control flow
+- ### Control flow
     ```
         // if statement
         if (some_condition) {
@@ -46,7 +46,7 @@
         
         ...
     ```
-- Functions
+- ### Functions
     ```
     fun someFunction(parameters) {
         // Do stuff...
@@ -62,7 +62,7 @@
     
     print sum(2, 3); // 5
     ```
-- Closures
+- ### Closures
     ```
     /**
     * Lets have our selft some closures
@@ -82,7 +82,7 @@
     counter(); // 0
     counter(); // 1
     ```
-- Classes
+- ### Classes
     ```
     class SayHello {
         init(name) {
@@ -97,7 +97,7 @@
     hello.hello() // "Patco"
     
     ```
-- Inheritance
+- ### Inheritance
     ```
     class Person {
         init(firstName, lastName) {
